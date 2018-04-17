@@ -15,8 +15,7 @@ public class App
         /**
          * Checker prevents this from compiling...
          */
-        System.out.println("myObject: " + myObject.toString());
-        System.out.println("THIS SHOULDN'T SHOW");
+//        System.out.println("myObject: " + myObject.toString());
         /**
          * ... which is simply fantastic. It shows:
          *
@@ -27,6 +26,5 @@ public class App
          */
         System.out.println("... but thankfully, Checker has our back: http://checkerframework.org");
     }
-    
     
 }
